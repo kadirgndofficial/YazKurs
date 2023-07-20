@@ -26,8 +26,10 @@
     border-radius: 6px;
     letter-spacing: 0.5px;
 }
+
 .btn-primary{  
     background: rgb(84, 84, 189);
+    border: 0.5px solid rgb(84, 84, 189);;
 }
 .btn-primary:hover{
     color:rgb(84, 84, 189);
@@ -41,6 +43,9 @@
     color:#333;
     background: #fff;
     border: 0.5px solid #333;
+}
+.btn-block{
+    width: 100%;
 }
 /*Forms */
 

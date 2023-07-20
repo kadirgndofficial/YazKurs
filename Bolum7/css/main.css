@@ -43,9 +43,11 @@ html{
 }
 #home img{
     max-width: 100%;
-    height: auto;
-    border-radius: 100%;
-}
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover; 
+    }
 #home .name{
     text-align: center;
 }
@@ -79,12 +81,15 @@ padding: 0.5rem;
 
 #courses{
     color: #333;
+    padding: 1rem;    
+}
+#courses {
+    display: flex;
+    flex-direction: column;       
     padding: 1rem;
 }
-#courses{
+.courses .course{
     display: flex;
-    flex-direction: column;
-    padding: 1rem;
 }
 .courses{    
     padding: 0.5rem;
@@ -114,7 +119,7 @@ padding: 0.5rem;
 .courses .course .course-info .description{
     letter-spacing: 1.2px;
     margin-bottom: 0.25rem;
-    opacity: 0.6;
+    opacity: 0.6;    
 }
 .courses .course .course-info .instructor{
     font-size: 0.8rem;
@@ -142,11 +147,14 @@ padding: 0.5rem;
     list-style-type: none;
     display: flex;
     margin-top: 1rem;
-    align-self: center;
+    align-self: center;  
+    margin-left: 250px;
+    
 }
 #contact .contact-form ul li a{
     padding: 1rem;
     font-size: 2rem;
+    
 }
 #contact .contact-form ul li a:hover{   
     opacity: 0.5;
