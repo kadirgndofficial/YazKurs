@@ -43,10 +43,11 @@ html{
 }
 #home img{
     max-width: 100%;
-    border-radius: 50%;
-    height: 250px;
-    width: 250px;
-    object-fit: cover; 
+    width: 300px;
+    height: 300px;  
+    object-fit: cover;  
+    object-position: top;
+    border-radius: 100%;    
     }
 #home .name{
     text-align: center;
@@ -81,23 +82,27 @@ padding: 0.5rem;
 
 #courses{
     color: #333;
-    padding: 1rem;    
+    padding: 1rem;
+    margin: 2px;
+    letter-spacing: 1px;
 }
 #courses {
     display: flex;
     flex-direction: column;       
-    padding: 1rem;
+    padding: 0.9rem;
 }
 .courses .course{
     display: flex;
 }
 .courses{    
-    padding: 0.5rem;
-    margin-bottom: 0.5rem;
+    padding: 0.1rem;
+    margin-bottom: 0.1rem;
 }
 .courses .course .course-image{
     margin-right: 0.5rem;
     position: relative;
+    padding-top: 3%;
+    
 }
 .courses .course .course-image img{
     border-radius: 10px;
@@ -108,28 +113,32 @@ padding: 0.5rem;
     color: #fff;
     border-radius: 4px;
     position: absolute;
-    top:10px;
+    top:40px;
     left:0;
 }
 .courses .course .course-info .title{
-    letter-spacing: 1.2px;
-    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-weight: 600;
     margin-bottom: 0.25rem;
+    padding-top: 13%;
+    text-align: center;
 }
 .courses .course .course-info .description{
     letter-spacing: 1.2px;
     margin-bottom: 0.25rem;
-    opacity: 0.6;    
+    opacity: 0.3;    
+    color: grey;
 }
 .courses .course .course-info .instructor{
     font-size: 0.8rem;
-    margin-bottom: 0.25rem;
-    opacity: 0.6;
+    margin-bottom: 0.15rem;
+    opacity: 0.3;
+    color: grey;
 }
 .courses .course .course-info .rating{
     font-size: 0.8rem;
-    margin-bottom: 0.25rem;
-    opacity: 0.6;
+    margin-bottom: 0.15rem;
+    opacity: 0.3;
 }
 /* Contact */
 #contact{
