@@ -85,6 +85,7 @@ padding: 0.5rem;
     padding: 1rem;
     margin: 2px;
     letter-spacing: 1px;
+    
 }
 #courses {
     display: flex;
@@ -97,15 +98,18 @@ padding: 0.5rem;
 .courses{    
     padding: 0.1rem;
     margin-bottom: 0.1rem;
+    padding-top: 3%;    
 }
 .courses .course .course-image{
     margin-right: 0.5rem;
     position: relative;
-    padding-top: 3%;
+    padding-top: 5%;  
+    padding-bottom: -5%;  
     
 }
 .courses .course .course-image img{
     border-radius: 10px;
+    
 }
 .courses .course .course-image span{
     background: red;
@@ -120,7 +124,7 @@ padding: 0.5rem;
     letter-spacing: 1.5px;
     font-weight: 600;
     margin-bottom: 0.25rem;
-    padding-top: 13%;
+    padding-top: 7%;
     text-align: center;
 }
 .courses .course .course-info .description{
